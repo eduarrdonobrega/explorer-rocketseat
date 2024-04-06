@@ -14,7 +14,7 @@ Eduardo Nóbrega - Turma 03
 
 <div align="center">
 
-  <h1><a href="https://explorer.edunobrega.com/">👾 Acessar</a></h1> 
+  <h1><a href="https://explorer-rocketseat-six.vercel.app/">👾 Acessar</a></h1> 
 <br>
 </div>
 
