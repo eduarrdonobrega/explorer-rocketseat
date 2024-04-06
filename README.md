@@ -7,17 +7,17 @@ Eduardo Nóbrega - Turma 03
 <div align="center">
 
 ## Portifólio com os projetos que desenvolvi durante o programa:
-![Screenshot_1](https://user-images.githubusercontent.com/87456011/233090195-5ebcf4ef-c3e7-480c-b4c9-220ced77ecfc.png)
-
+<a href="https://explorer-rocketseat-six.vercel.app/" target="_blank">
+  <img src="https://user-images.githubusercontent.com/87456011/233090195-5ebcf4ef-c3e7-480c-b4c9-220ced77ecfc.png" alt="Screenshot_1">
+</a>
 
 </div>
 
 <div align="center">
 
-  <h1><a href="https://explorer-rocketseat-six.vercel.app/">👾 Acessar</a></h1> 
+  <h1><a href="https://explorer-rocketseat-six.vercel.app/" target="_blank">👾 Acessar</a></h1> 
 <br>
 </div>
-
 ## Conteúdos do programa
 
 ### Stage 01 - Fundamentos da programação Web
