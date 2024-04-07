@@ -8,21 +8,21 @@ Site simples para praticar html e css
 
 <div align="center">
 
-  <h1><a href="https://eduardonobrega.github.io/rocketseat-explore/stage-02/rocket-sect/" target="_blank" >👾 Site ao vivo</a></h1>
+  <h1><a href="https://eduarrdonobrega.github.io/explorer-rocketseat/stage-02/rocket-sect/" target="_blank" >👾 Site ao vivo</a></h1>
 
 </div>
 
 ## Construído com
 
-- Marcação HTML5 semântica
-- Propriedades personalizadas de CSS
+-   Marcação HTML5 semântica
+-   Propriedades personalizadas de CSS
 
 ## O que eu aprendi
 
 Me desafiei a editar a Scrollbar
 
-[Veja como editar](https://eduardonobrega.notion.site/Editar-Scrollbar-34d911a411d5428a96780929e411c2a2)
+[Veja como editar](https://eduarrdonobrega.notion.site/Editar-Scrollbar-34d911a411d5428a96780929e411c2a2)
 
 ## Autor
 
-[@eduardonobrega](https://github.com/eduardonobrega)
+[@eduarrdonobrega](https://github.com/eduarrdonobrega)

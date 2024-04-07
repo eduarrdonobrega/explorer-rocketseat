@@ -8,14 +8,14 @@ Site simples para praticar posicionamento com Flexbox
 
 <div align="center">
 
-  <h1><a href="https://eduardonobrega.github.io/rocketseat-explore/stage-02/treine-me/" target="_blank" >👾 Site ao vivo</a></h1>
+  <h1><a href="https://eduarrdonobrega.github.io/explorer-rocketseat/stage-02/treine-me/" target="_blank" >👾 Site ao vivo</a></h1>
 
 </div>
 
 ## Construído com
 
-- Marcação HTML5 semântica
-- Propriedades personalizadas de CSS
+-   Marcação HTML5 semântica
+-   Propriedades personalizadas de CSS
 
 ## O que eu aprendi
 
@@ -23,4 +23,4 @@ Aprendi a deixar meu layout mais flexível utilizando Flexbox
 
 ## Autor
 
-[@eduardonobrega](https://github.com/eduardonobrega)
+[@eduarrdonobrega](https://github.com/eduarrdonobrega)

@@ -9,8 +9,8 @@ Esse foi o primeiro projeto que desenvolvi no Explorer.
 
 ## Links
 
-- Código: (https://github.com/eduardonobrega/rocketseat-explore/tree/main/stage-02/projeto-01)
-- Site ao vivo: (https://eduardonobrega.github.io/rocketseat-explore/stage-02/projeto-01/)
+- Código: (https://github.com/eduarrdonobrega/explorer-rocketseat/tree/main/stage-02/projeto-01)
+- Site ao vivo: (https://eduarrdonobrega.github.io/explorer-rocketseat/stage-02/projeto-01/)
 
 
 ## Construído com
@@ -20,5 +20,5 @@ Esse foi o primeiro projeto que desenvolvi no Explorer.
 
 ## Autor
 
-- Github - [@eduardonobrega](https://github.com/eduardonobrega)
+- Github - [@eduarrdonobrega](https://github.com/eduarrdonobrega)
 
