@@ -1,0 +1,111 @@
+:root {
+    font-size: 62.5%;
+
+    --purple: #3f3d56;
+    --pink: #ee24ff;
+    --gray-200: #828282;
+    --gray-100: #eceff2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: inherit;
+}
+
+img,
+picture,
+svg,
+video {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+body,
+input,
+button,
+textarea {
+    font: 400 1.6rem 'Open Sans', sans-serif;
+
+    font-optical-sizing: auto;
+    font-variation-settings: 'wdth' 100;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    color: var(--gray-200);
+    text-align: center;
+    /* min-height: 100vh; */
+}
+
+main,
+footer {
+    width: min(90%, 540px);
+    margin: 0 auto;
+}
+
+main > img {
+    margin-top: 6.4rem;
+}
+
+h1 {
+    font-family: 'Dosis', sans-serif;
+    color: var(--purple);
+    font-weight: 500;
+    font-size: clamp(2.6rem, 2.1714rem + 1.3393vw, 3.2rem);
+
+    margin: 3.2rem 0 1.6rem;
+}
+
+h1 > span {
+    color: var(--pink);
+    font-weight: 700;
+}
+
+p {
+    font-size: clamp(1.4rem, 1.3286rem + 0.2232vw, 1.5rem);
+    line-height: 2.2rem;
+}
+
+p + p {
+    margin-top: 3.2rem;
+}
+
+p > strong {
+    color: var(--purple);
+    font-weight: 700;
+}
+
+p > span {
+    font-weight: 700;
+}
+
+footer {
+    margin: 6.4rem auto  6.4rem;
+    border-top: 1px solid var(--gray-100);
+    padding-top: 1.6rem;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+    gap: 4rem;
+    justify-content: center;
+}
+
+footer a {
+    color: var(--purple);
+    font-size: clamp(1.4rem, 1.3286rem + 0.2232vw, 1.5rem);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+#wave {
+    width: 100%;
+    max-height: 260px;
+    position: fixed;
+    bottom: 0;
+}
