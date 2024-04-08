@@ -92,14 +92,7 @@ const projects = [
     //   githubUrl:
     //     'https://github.com/eduarrdonobrega/explorer-rocketseat/tree/main/stage-05/imc',
     // },
-    // {
-    //   imageUrl:
-    //     'https://user-images.githubusercontent.com/87456011/232936923-97f7e70d-088d-4411-ae32-a9febd89ead0.png',
-    //   name: 'Formulário',
-    //   url: 'https://eduarrdonobrega.github.io/explorer-rocketseat/stage-03/form-avaliacao/',
-    //   githubUrl:
-    //     'https://github.com/eduarrdonobrega/explorer-rocketseat/tree/main/stage-03/form-avaliacao',
-    // },
+
     // {
     //   imageUrl:
     //     'https://user-images.githubusercontent.com/87456011/232937383-a7f576ce-f7fa-444b-a785-d17bb578428e.png',
@@ -116,6 +109,12 @@ const projects = [
     //   githubUrl:
     //     'https://github.com/eduarrdonobrega/explorer-rocketseat/tree/main/stage-03/macbook-card',
     // },
+    {
+        imageUrl:
+            'https://user-images.githubusercontent.com/87456011/232936923-97f7e70d-088d-4411-ae32-a9febd89ead0.png',
+        name: 'Formulário',
+        path: 'stage-03/form-evento '
+    },
     {
         imageUrl:
             'https://user-images.githubusercontent.com/87456011/232937893-c8593cf5-4473-49aa-9d7a-6470f053a8e3.png',
