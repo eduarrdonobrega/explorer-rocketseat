@@ -116,16 +116,12 @@ const projects = [
     //   githubUrl:
     //     'https://github.com/eduarrdonobrega/explorer-rocketseat/tree/main/stage-03/macbook-card',
     // },
-    // {
-    //   imageUrl:
-    //     'https://user-images.githubusercontent.com/87456011/232937893-c8593cf5-4473-49aa-9d7a-6470f053a8e3.png',
-    //   name: 'Rocket.sect ',
-    //   url: 'https://eduarrdonobrega.github.io/explorer-rocketseat/stage-02/rocket-sect/',
-    // },      https://eduardonobrega.github.io/explorer-rocketseat/stage-02/projeto-01/
-    //   favicon:
-    //     'https://github.com/eduarrdonobrega/explorer-rocketseat/blob/main/stage-02/rocket-sect/favicon.ico?raw=true',
-    //   githubUrl:
-    //     'https://github.com/eduarrdonobrega/explorer-rocketseat/tree/main/stage-02/rocket-sect',
+    {
+        imageUrl:
+            'https://user-images.githubusercontent.com/87456011/232937893-c8593cf5-4473-49aa-9d7a-6470f053a8e3.png',
+        name: 'Rocket.sect',
+        path: 'stage-02/rocket-sect'
+    },
     {
         imageUrl:
             'https://user-images.githubusercontent.com/87456011/232938692-cb30ed15-2f6c-472c-9efd-5c12bfb51d24.png',
