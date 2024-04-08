@@ -112,8 +112,20 @@ const projects = [
     {
         imageUrl:
             'https://user-images.githubusercontent.com/87456011/232936923-97f7e70d-088d-4411-ae32-a9febd89ead0.png',
-        name: 'Formulário',
-        path: 'stage-03/form-evento '
+        name: 'Formulário Avaliação',
+        path: 'stage-03/form-avaliacao'
+    },
+    {
+        imageUrl:
+            'https://github.com/eduarrdonobrega/explorer-rocketseat/assets/87456011/aa57d84b-040a-47ea-b2b4-842f5c2f0b89',
+        name: 'Formulário Mentoria',
+        path: 'stage-03/form-mentoria'
+    },
+    {
+        imageUrl:
+            'https://github.com/eduarrdonobrega/explorer-rocketseat/assets/87456011/6c18d829-7f63-4111-a1c2-e1e4d289d823',
+        name: 'Formulário Evento',
+        path: 'stage-03/form-evento'
     },
     {
         imageUrl:

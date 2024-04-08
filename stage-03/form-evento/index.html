@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link
+            href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+        <title>Crie seu evento.</title>
+    </head>
+    <body>
+        <header>
+            <div>
+                <h1>Crie e compartilhe seu evento.</h1>
+                <p>
+                    O primeiro passo, é preencher esse formulário de inscrição.
+                </p>
+            </div>
+        </header>
+        <main>
+            <form id="eventForm">
+                <fieldset>
+                    <legend>Informações do Evento</legend>
+
+                    <div class="inputContain">
+                        <label for="title">
+                            Título do evento <span>(mínimo 8 caracteres)</span>
+                        </label>
+                        <input
+                            type="text"
+                            name="title"
+                            id="title"
+                            minlength="8"
+                            autofocus
+                            required
+                        />
+                    </div>
+                    <div class="inputContain">
+                        <label for="url">
+                            Link do evento <span>(comece com https://)</span>
+                        </label>
+                        <input
+                            type="url"
+                            name="url"
+                            id="url"
+                            pattern="https://.*"
+                            size="30"
+                            required
+                        />
+                    </div>
+                    <div class="inputContain">
+                        <label for="tel">
+                            WhatsApp para contato <span>(DD + Número)</span>
+                        </label>
+                        <input
+                            type="tel"
+                            name="tel"
+                            id="tel"
+                            placeholder="(87) 98888-8880"
+                            pattern="\(\d{2}\) \d{5}-\d{4}"
+                            required
+                        />
+                    </div>
+                    <div class="inputContain">
+                        <label for="complement">Informações extras</label>
+                        <textarea name="complement" id="complement"></textarea>
+                    </div>
+                    <div class="inputContain">
+                        <label for="category">Categoria</label>
+                        <select name="category" id="category">
+                            <option value="texte" disabled selected>
+                                Tipo do evento
+                            </option>
+                        </select>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Privacidade</legend>
+                    <div class="inputContain">
+                        <label for="email">
+                            E-mail do administrador
+                            <span>(digite um email válido)</span></label
+                        >
+                        <input type="email" name="email" id="email" />
+                    </div>
+                    <div class="inputContain">
+                        <label for="password">
+                            Senha de acesso para os participantes
+                            <span>(mínimo 8 caracteres)</span></label
+                        >
+                        <input type="password" name="password" id="password" />
+                    </div>
+                    <div class="inputContain checkboxContainer">
+                        <input type="checkbox" id="private" class="sr-only" />
+                        <label for="private"> Evento privado</label>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Dia e hora</legend>
+                    <div class="threeColumns">
+                        <div class="inputContain">
+                            <label for="date">Data</label>
+                            <input type="date" name="date" id="date" />
+                        </div>
+
+                        <div class="inputContain">
+                            <label for="start">Das</label>
+                            <input
+                                type="time"
+                                name="start"
+                                id="start"
+                                autocomplete="off"
+                                value="19:00"
+                            />
+                        </div>
+                        <div class="inputContain">
+                            <label for="end">Até</label>
+                            <input
+                                type="time"
+                                name="end"
+                                id="end"
+                                autocomplete="off"
+                                value="20:00"
+                            />
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+            <div>
+                <button form="eventForm" type="submit">Salvar evento</button>
+            </div>
+        </main>
+    </body>
+</html>
