@@ -7,6 +7,15 @@
     --white: #ffffff;
 }
 
+::-webkit-scrollbar {
+    width: .5rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--green);
+    border-radius: 1rem;
+}
+
 * {
     margin: 0;
     padding: 0;

@@ -21,7 +21,6 @@ Site simples para praticar html e css
 
 Me desafiei a editar a Scrollbar
 
-[Veja como editar](https://eduarrdonobrega.notion.site/Editar-Scrollbar-34d911a411d5428a96780929e411c2a2)
 
 ## Autor
 
