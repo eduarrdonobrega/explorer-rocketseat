@@ -93,22 +93,18 @@ const projects = [
     //     'https://github.com/eduarrdonobrega/explorer-rocketseat/tree/main/stage-05/imc',
     // },
 
-    // {
-    //   imageUrl:
-    //     'https://user-images.githubusercontent.com/87456011/232937383-a7f576ce-f7fa-444b-a785-d17bb578428e.png',
-    //   name: 'Space Cream ',
-    //   url: 'https://eduarrdonobrega.github.io/explorer-rocketseat/stage-03/space-cream/',
-    //   githubUrl:
-    //     'https://github.com/eduarrdonobrega/explorer-rocketseat/tree/main/stage-03/space-cream',
-    // },
-    // {
-    //   imageUrl:
-    //     'https://user-images.githubusercontent.com/87456011/232937687-b6d5c77a-0442-4c05-a3f7-983b7bf02670.png',
-    //   name: 'Macbook Card',
-    //   url: 'https://eduarrdonobrega.github.io/explorer-rocketseat/stage-03/macbook-card/',
-    //   githubUrl:
-    //     'https://github.com/eduarrdonobrega/explorer-rocketseat/tree/main/stage-03/macbook-card',
-    // },
+    {
+        imageUrl:
+            'https://user-images.githubusercontent.com/87456011/232937383-a7f576ce-f7fa-444b-a785-d17bb578428e.png',
+        name: 'Space Cream',
+        path: 'stage-03/space-cream'
+    },
+    {
+        imageUrl:
+            'https://user-images.githubusercontent.com/87456011/232937687-b6d5c77a-0442-4c05-a3f7-983b7bf02670.png',
+        name: 'Macbook Card',
+        path: 'stage-03/macbook-card'
+    },
     {
         imageUrl:
             'https://user-images.githubusercontent.com/87456011/232936923-97f7e70d-088d-4411-ae32-a9febd89ead0.png',
