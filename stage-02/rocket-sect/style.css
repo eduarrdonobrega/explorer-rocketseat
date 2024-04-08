@@ -1,0 +1,177 @@
+:root {
+    font-size: 62.5%;
+
+    --purple: #2f2e41;
+    --green: #00bfa6;
+    --gray: #c2c2c2;
+    --white: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: inherit;
+}
+
+img,
+picture,
+svg,
+video {
+    display: block;
+    max-width: 100%;
+}
+
+body,
+input,
+button,
+textarea {
+    font: 400 1.6rem 'JetBrains Mono', monospace;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    color: var(--white);
+    background-color: var(--purple);
+    min-height: 100vh;
+}
+
+header,
+main,
+footer {
+    width: min(90%, 1080px);
+    margin: 0 auto;
+}
+
+span {
+    color: var(--green);
+}
+
+strong {
+    font-weight: 700;
+}
+
+header {
+    padding-top: 8rem;
+    margin-bottom: 8rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+
+#logo {
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+    font-weight: 700;
+
+    display: flex;
+    align-items: center;
+}
+
+#logo > img {
+    width: 1.6rem;
+    height: 1.6rem;
+}
+
+header ul {
+    list-style: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3.4rem;
+    /* gap: 6.4rem; */
+}
+
+header a {
+    color: var(--white);
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+header a:hover {
+    background-color: var(--green);
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+main {
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 4rem;
+    margin-bottom: 6rem;
+}
+
+.content {
+    max-width: 52rem;
+}
+
+.content p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+}
+
+.content p + p {
+    margin-top: 4rem;
+}
+
+footer {
+    font-size: 1.4rem;
+    text-align: center;
+
+    width: min(90%, 570px);
+    border-top: 1px solid var(--green);
+    padding: 2.7rem 0 2.7rem;
+    margin-top: 16rem;
+}
+
+#lock {
+    display: none;
+    position: fixed;
+    left: 2rem;
+    bottom: 2rem;
+}
+
+@media (min-width: 600px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+@media (min-width: 650px) {
+    #lock {
+        display: block;
+    }
+}
+@media (min-width: 870px) {
+    main {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    main > img {
+        width: calc(100% - 520px);
+        max-width: 400px;
+        height: auto;
+    }
+    .content {
+        width: 520px;
+        flex-shrink: 0;
+    }
+}
