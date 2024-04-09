@@ -95,6 +95,12 @@ const projects = [
 
     {
         imageUrl:
+            'https://github.com/eduarrdonobrega/explorer-rocketseat/assets/87456011/960fc2bf-33e5-4285-b649-fac51c7a9ee3',
+        name: 'Galaxies',
+        path: 'stage-03/galaxies'
+    },
+    {
+        imageUrl:
             'https://github.com/eduarrdonobrega/explorer-rocketseat/assets/87456011/5e8ca823-2e84-4bee-8507-4b1418899a8b',
         name: 'Cheesecake',
         path: 'stage-03/cheesecake'
