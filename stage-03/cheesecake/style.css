@@ -1,0 +1,112 @@
+:root {
+    font-size: 62.5%;
+    --default-color: #a54328;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: inherit;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+body,
+input,
+button,
+textarea {
+    font: 400 1.6rem 'Source Serif Pro', serif;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    color: var(--default-color);
+    min-height: 100vh;
+    padding: 6rem 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    width: min(90%, 1150px);
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 3.4rem;
+}
+
+main > div {
+    max-width: 50rem;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+img {
+    margin: 4.68rem auto;
+}
+
+h2 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+
+h3 {
+    font-weight: 700;
+}
+
+ul,
+ol {
+    padding-left: 2.4rem;
+}
+ul {
+    margin-bottom: 2.5rem;
+}
+
+button {
+    color: #fff;
+    background-color: var(--default-color);
+    font-family: 'Source Serif 4', serif;
+    font-size: 1.2rem;
+
+    width: 10rem;
+    height: 3rem;
+    margin-top: 2rem;
+    border: none;
+    border-radius: 6px;
+}
+
+@media (min-width: 1060px) {
+    body {
+        background: url('./assets/texture.png') lightgray 50% / cover no-repeat;
+    }
+
+    main {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    div:first-child {
+        width: 50%;
+        max-width: 43.5rem;
+    }
+
+    div:last-child {
+        width: 50%;
+
+        max-width: 52.5rem;
+    }
+}

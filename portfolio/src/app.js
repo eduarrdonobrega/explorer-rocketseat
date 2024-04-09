@@ -95,6 +95,18 @@ const projects = [
 
     {
         imageUrl:
+            'https://github.com/eduarrdonobrega/explorer-rocketseat/assets/87456011/5e8ca823-2e84-4bee-8507-4b1418899a8b',
+        name: 'Cheesecake',
+        path: 'stage-03/cheesecake'
+    },
+    {
+        imageUrl:
+            'https://github.com/eduarrdonobrega/explorer-rocketseat/assets/87456011/20a89387-01d2-4b03-99d0-a1622a7a8a2d',
+        name: 'Responsivo',
+        path: 'stage-03/responsivo'
+    },
+    {
+        imageUrl:
             'https://user-images.githubusercontent.com/87456011/232937383-a7f576ce-f7fa-444b-a785-d17bb578428e.png',
         name: 'Space Cream',
         path: 'stage-03/space-cream'
