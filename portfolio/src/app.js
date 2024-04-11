@@ -94,79 +94,65 @@ const projects = [
     // },
 
     {
-        imageUrl:
-            'https://github.com/eduarrdonobrega/explorer-rocketseat/assets/87456011/960fc2bf-33e5-4285-b649-fac51c7a9ee3',
+        name: 'Cat Blog',
+        path: 'stage-03/cat-blog'
+    },
+
+    {
+        name: 'Galeria de Fotos',
+        path: 'stage-03/photo-blog'
+    },
+
+    {
         name: 'Galaxies',
         path: 'stage-03/galaxies'
     },
     {
-        imageUrl:
-            'https://github.com/eduarrdonobrega/explorer-rocketseat/assets/87456011/5e8ca823-2e84-4bee-8507-4b1418899a8b',
         name: 'Cheesecake',
         path: 'stage-03/cheesecake'
     },
     {
-        imageUrl:
-            'https://github.com/eduarrdonobrega/explorer-rocketseat/assets/87456011/20a89387-01d2-4b03-99d0-a1622a7a8a2d',
         name: 'Responsivo',
         path: 'stage-03/responsivo'
     },
     {
-        imageUrl:
-            'https://user-images.githubusercontent.com/87456011/232937383-a7f576ce-f7fa-444b-a785-d17bb578428e.png',
         name: 'Space Cream',
         path: 'stage-03/space-cream'
     },
     {
-        imageUrl:
-            'https://user-images.githubusercontent.com/87456011/232937687-b6d5c77a-0442-4c05-a3f7-983b7bf02670.png',
         name: 'Macbook Card',
         path: 'stage-03/macbook-card'
     },
     {
-        imageUrl:
-            'https://user-images.githubusercontent.com/87456011/232936923-97f7e70d-088d-4411-ae32-a9febd89ead0.png',
         name: 'Formulário Avaliação',
         path: 'stage-03/form-avaliacao'
     },
     {
-        imageUrl:
-            'https://github.com/eduarrdonobrega/explorer-rocketseat/assets/87456011/aa57d84b-040a-47ea-b2b4-842f5c2f0b89',
         name: 'Formulário Mentoria',
         path: 'stage-03/form-mentoria'
     },
     {
-        imageUrl:
-            'https://github.com/eduarrdonobrega/explorer-rocketseat/assets/87456011/6c18d829-7f63-4111-a1c2-e1e4d289d823',
         name: 'Formulário Evento',
         path: 'stage-03/form-evento'
     },
     {
-        imageUrl:
-            'https://user-images.githubusercontent.com/87456011/232937893-c8593cf5-4473-49aa-9d7a-6470f053a8e3.png',
         name: 'Rocket.sect',
         path: 'stage-02/rocket-sect'
     },
     {
-        imageUrl:
-            'https://user-images.githubusercontent.com/87456011/232938692-cb30ed15-2f6c-472c-9efd-5c12bfb51d24.png',
         name: 'Treine.me',
         path: 'stage-02/treine-me'
     },
     {
-        imageUrl:
-            'https://user-images.githubusercontent.com/87456011/232938375-4d0e15cd-3931-4dbb-941d-b82707d7077e.png',
         name: 'Flutar',
         path: 'stage-02/recriando-layout'
     },
     {
-        imageUrl:
-            'https://user-images.githubusercontent.com/87456011/232939021-57c68b94-c7c8-4ab5-8111-44c70fd905b5.png',
         name: 'Arquitetura',
         path: 'stage-02/projeto-01'
     }
 ]
-projects.forEach(project => {
+projects.forEach((project, index) => {
     const div = document.createElement('div')
     const div2 = document.createElement('div')
     const div3 = document.createElement('div')
@@ -179,9 +165,11 @@ projects.forEach(project => {
     const githubUrl = `https://github.com/${username}/${repoName}/${branch}/${project.path}`
     const url = `https://${username}.github.io/${repoName}/${project.path}/`
 
-    projectImg.setAttribute('src', project.imageUrl)
-
+    projectImg.setAttribute('src', `./assets/${project.path.slice(9)}.jpg`)
     projectName.innerText = project.name
+    console.log(index)
+    div.style.setProperty('--delay', `${(index + 1) * 2}00ms`)
+
     projectUrl.innerHTML = '<i class="ph-link-thin"></i>'
     projectUrl.setAttribute('href', url)
     projectUrl.setAttribute('target', '_blank')
