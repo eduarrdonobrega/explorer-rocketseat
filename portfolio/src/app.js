@@ -5,93 +5,25 @@ const projectsDiv = document.querySelector('.projects')
 
 const projects = [
     // {
-    //   imageUrl:
-    //     'https://user-images.githubusercontent.com/87456011/232927250-4fd5b0f0-8e40-4d03-8863-addae16856d3.png',
-    //   favicon:
-    //     'https://raw.githubusercontent.com/eduarrdonobrega/food-explorer-frontend/main/favicon.ico',
-    //   name: 'FoodExplorer',
-    //   url: 'https://foodexplorer.bohr.io/',
-    //   githubUrl: 'https://github.com/eduarrdonobrega/food-explorer',
+    //     name: 'FocusTimer 2.0',
+    //     path: 'stage-05/focus-timer-2.0'
     // },
     // {
-    //   imageUrl:
-    //     'https://user-images.githubusercontent.com/87456011/232928850-af6e0d2e-1c15-4614-b6dd-e2feda0ba6b3.png',
-    //   favicon:
-    //     'https://raw.githubusercontent.com/eduarrdonobrega/rocketmovies-frontend/cb8ec33e5835aceab8c72411c86be219e7262733/favicon.ico',
-    //   name: 'RocketMovies',
-    //   url: 'https://rocketmovies.bohr.io/',
-    //   githubUrl: 'https://github.com/eduarrdonobrega/rocketmovies',
+    //     name: 'FocusTimer',
+    //     path: 'stage-05/focus-timer'
     // },
     // {
-    //   imageUrl:
-    //     'https://user-images.githubusercontent.com/87456011/232929684-de69afe2-3e6b-48de-9b71-d5e282aefaaf.png',
-    //   favicon:
-    //     'https://github.com/eduarrdonobrega/rocketnotes-frontend/blob/main/favicon.ico?raw=true',
-    //   name: 'RocketNotes',
-    //   url: 'https://rocketnotes.bohr.io/',
-    //   githubUrl: 'https://github.com/eduarrdonobrega/rocketnotes',
+    //     name: 'IMC',
+    //     path: 'stage-05/imc'
     // },
-    // {
-    //   imageUrl:
-    //     'https://user-images.githubusercontent.com/87456011/232931762-84d71ee0-6033-4985-9b08-e3f0a5b6156f.png',
-
-    //   name: 'SPA Universe',
-    //   url: 'https://spa-universe-eight.vercel.app/',
-    //   githubUrl:
-    //     'https://github.com/eduarrdonobrega/explorer-rocketseat/tree/main/stage-06/spa-universe',
-    // },
-    // {
-    //   imageUrl:
-    //     'https://user-images.githubusercontent.com/87456011/232934022-c6ddb543-74d0-4ba4-aca8-5236cdef1982.png',
-    //   name: 'Git Fav',
-    //   url: 'https://eduarrdonobrega.github.io/explorer-rocketseat/stage-06/git-fav/',
-    //   githubUrl:
-    //     'https://github.com/eduarrdonobrega/explorer-rocketseat/tree/main/stage-06/git-fav',
-    // },
-    // {
-    //   imageUrl:
-    //     'https://user-images.githubusercontent.com/87456011/190482232-97c60bba-3c20-4aa0-9f45-c449fd0cad9b.png',
-    //   name: 'FocusTimer 2.0',
-    //   favicon:
-    //     'https://raw.githubusercontent.com/eduarrdonobrega/explorer-rocketseat/main/stage-05/focus-timer-2.0/favicon.ico',
-    //   url: 'https://eduarrdonobrega.github.io/explorer-rocketseat/stage-05/focus-timer-2.0/',
-    //   githubUrl:
-    //     'https://github.com/eduarrdonobrega/explorer-rocketseat/tree/main/stage-05/focus-timer-2.0',
-    // },
-    // {
-    //   imageUrl:
-    //     'https://user-images.githubusercontent.com/87456011/232935416-3a0a41d8-531a-41fb-9ec7-6ac2a3e5a31d.png',
-    //   name: 'FocusTimer',
-    //   favicon:
-    //     'https://raw.githubusercontent.com/eduarrdonobrega/explorer-rocketseat/main/stage-05/focus-timer-2.0/favicon.ico',
-    //   url: 'https://eduarrdonobrega.github.io/explorer-rocketseat/stage-05/focus-timer/',
-    //   githubUrl:
-    //     'https://github.com/eduarrdonobrega/explorer-rocketseat/tree/main/stage-05/focus-timer',
-    // },
-    // {
-    //   imageUrl:
-    //     'https://user-images.githubusercontent.com/87456011/232936259-cfdd13ef-1640-488d-a601-9d5353a2aff8.png',
-    //   name: 'Biscoito da Sorte',
-    //   url: 'https://eduarrdonobrega.github.io/explorer-rocketseat/stage-05/biscoito-da-sorte/',
-    //   githubUrl:
-    //     'https://github.com/eduarrdonobrega/explorer-rocketseat/tree/main/stage-05/biscoito-da-sorte',
-    // },
-    // {
-    //   imageUrl:
-    //     'https://user-images.githubusercontent.com/87456011/232936069-9f4370b4-b7b8-402d-9a1f-a86b5ac1435f.png',
-    //   name: 'Jogo da Adivinhação',
-    //   url: 'https://eduarrdonobrega.github.io/explorer-rocketseat/stage-05/jogo-da-adivinhacao/',
-    //   githubUrl:
-    //     'https://github.com/eduarrdonobrega/explorer-rocketseat/tree/main/stage-05/jogo-da-adivinhacao',
-    // },
-    // {
-    //   imageUrl:
-    //     'https://user-images.githubusercontent.com/87456011/232936365-fab9b5b8-4b28-4a9b-b10b-d1e76bc122c6.png',
-    //   name: 'IMC',
-    //   url: 'https://eduarrdonobrega.github.io/explorer-rocketseat/stage-05/imc/',
-    //   githubUrl:
-    //     'https://github.com/eduarrdonobrega/explorer-rocketseat/tree/main/stage-05/imc',
-    // },
+    {
+        name: 'Biscoito da sorte',
+        path: 'stage-05/biscoito-da-sorte'
+    },
+    {
+        name: 'Jogo da Adivinhação',
+        path: 'stage-05/jogo-da-adivinhacao'
+    },
 
     {
         name: 'Explore sem Limites',
@@ -186,7 +118,7 @@ projects.forEach((project, index) => {
     div3.className = 'project__info_text'
     div4.className = 'project__links'
 
-    // Ger favicon
+    // Get favicon
     const projectFavicon = document.createElement('img')
     projectFavicon.className = 'project__info_favicon'
     projectFavicon.setAttribute(
