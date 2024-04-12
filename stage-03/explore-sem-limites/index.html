@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link
+            href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./style.css" />
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+        <title>Document</title>
+    </head>
+    <body>
+        <header>
+            <picture>
+                <source
+                    srcset="./assets/big-astronaut.png"
+                    media="(min-width: 992px)"
+                />
+                <img
+                    src="./assets/small-astronaut.png"
+                    alt="Astronauta no espaço"
+                />
+            </picture>
+            <div>
+                <h1>Explore sem limites</h1>
+                <p>Porque o aprendizado é contínuo</p>
+            </div>
+            <a href="#contact">
+                <img
+                    src="./assets/scrool.svg"
+                    alt="Flecha apontando para baixo"
+                />
+            </a>
+        </header>
+        <section class="cards">
+            <div class="card">
+                <img src="./assets/orange-moon.png" alt="Lua de cor laranja" />
+                <h2>Não para nunca</h2>
+                <p>
+                    Se você deseja ter sucesso nos estudos, é fundamental que
+                    você adote uma mentalidade de "não pare nunca". Estudar de
+                    forma consistente e contínua é a chave para o progresso e a
+                    conquista de seus objetivos.
+                </p>
+            </div>
+            <div class="card">
+                <img src="./assets/blue-moon.png" alt="Lua de cor azul" />
+                <h2>Só volta</h2>
+                <p>
+                    Se você parou ou perdeu o ritmo em alguma atividade ou
+                    projeto, saiba que nunca é tarde para recomeçar. Às vezes,
+                    as circunstâncias podem mudar, ou podemos nos sentir
+                    desmotivados ou sobrecarregados.
+                </p>
+            </div>
+            <div class="card">
+                <img src="./assets/pink-moon.png" alt="Lua de cor rosa" />
+                <h2>Siga seu ritmo</h2>
+                <p>
+                    Avançar pouco a pouco mantém progresso constante em
+                    objetivos, evitando parar ou desistir. Mesmo pequenos passos
+                    nos aproximam do destino e motivam a continuidade. Não
+                    subestime o poder de cada ação rumo ao objetivo final.
+                </p>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="form-wrapper">
+                <h2>Entre em contato</h2>
+                <form action="">
+                    <div class="input-wrapper">
+                        <label for="name">Seu nome</label>
+                        <img
+                            src="./assets/person.svg"
+                            alt="ícone de uma pessoa"
+                        />
+                        <input
+                            type="text"
+                            placeholder="Seu nome"
+                            autocomplete="off"
+                            required
+                        />
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="email">Email</label>
+                        <img
+                            src="./assets/at.svg"
+                            alt="ícone de uma pessoa"
+                        />
+                        <input
+                            type="email"
+                            placeholder="Email"
+                            autocomplete="off"
+                            required
+                        />
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="message">Digite sua mensagem aqui...</label>
+                        <textarea
+                            name="message"
+                            id="message"
+                            placeholder="Digite sua mensagem aqui..."
+                            required
+                        ></textarea>
+                    </div>
+                    <button type="submit">Enviar Mensagem</button>
+                </form>
+            </div>
+        </section>
+        <footer>
+            <p>&copy; 2024 - Rocketseat Explorer</p>
+        </footer>
+    </body>
+</html>

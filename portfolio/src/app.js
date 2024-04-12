@@ -94,10 +94,13 @@ const projects = [
     // },
 
     {
+        name: 'Explore sem Limites',
+        path: 'stage-03/explore-sem-limites'
+    },
+    {
         name: 'Cat Blog',
         path: 'stage-03/cat-blog'
     },
-
     {
         name: 'Galeria de Fotos',
         path: 'stage-03/photo-blog'

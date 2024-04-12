@@ -1,0 +1,279 @@
+:root {
+    font-size: 62.5%;
+
+    --pink: #b52184;
+    --purple: #312d64;
+    --white: #f9f4fb;
+    --gradient: linear-gradient(96deg, #343193 0%, #302c63 99.68%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: inherit;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img,
+picture,
+svg,
+video {
+    display: block;
+    max-width: 100%;
+}
+
+body,
+input,
+button,
+textarea {
+    font: 400 1.6rem Mulish, sans-serif;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    min-height: 100vh;
+    background-color: var(--white);
+}
+
+header {
+    text-align: center;
+
+    width: min(95%, 1218px);
+    margin: 0 auto 9.6rem;
+}
+
+header img {
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    color: var(--pink);
+    font-weight: 900;
+}
+
+p {
+    color: var(--purple);
+    font-weight: 600;
+}
+
+header h1 {
+    font-size: clamp(3rem, 2.2rem + 2.5vw, 5.8rem);
+    margin-bottom: 0.8rem;
+    margin-top: 1.6rem;
+}
+
+header p {
+    font-size: clamp(1.6rem, 1.1429rem + 1.4286vw, 3.2rem);
+    margin-bottom: 3.2rem;
+}
+
+.cards {
+    padding-block: clamp(5.6rem, 5.3714rem + 0.7143vw, 6.4rem);
+    background: var(--gradient);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: clamp(4.8rem, 4.5714rem + 0.7143vw, 5.6rem);
+}
+
+.card {
+    background: #fff;
+    padding: clamp(2.4rem, 2.1714rem + 0.7143vw, 3.2rem);
+    border-radius: 2.4rem;
+
+    width: min(95%, 366px);
+    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card h2 {
+    font-size: clamp(2.4rem, 2.1714rem + 0.7143vw, 3.2rem);
+    margin: 4rem 0 2.4rem;
+}
+
+.card p {
+    font-size: clamp(1.6rem, 1.4857rem + 0.3571vw, 2rem);
+}
+
+.form-wrapper {
+    width: min(95%, 1218px);
+    margin: 0 auto;
+}
+
+.contact {
+    padding-block: clamp(7.2rem, 6.5143rem + 2.1429vw, 9.6rem);
+}
+
+.contact h2 {
+    font-size: clamp(3.2rem, 2.9143rem + 0.8929vw, 4.2rem);
+    max-width: 592px;
+
+    margin: 0 auto 4rem;
+}
+
+.contact form {
+    margin: 0 auto;
+    max-width: 592px;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.input-wrapper {
+    padding: 1.2rem 1.4rem;
+    border-radius: 1.6rem;
+    border: 1.5px solid var(--purple);
+
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.input-wrapper label {
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+}
+
+input,
+textarea {
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+}
+
+textarea {
+    height: 12.6rem;
+    resize: none;
+}
+
+button {
+    color: #fff;
+    background: var(--gradient);
+    font-size: 1.4rem;
+    font-weight: 700;
+
+    width: 15.1rem;
+    padding: 1.6rem;
+    border: none;
+    border-radius: 1.6rem;
+}
+
+:focus {
+    outline: none;
+}
+.input-wrapper:has(:focus) {
+    outline: 2px solid var(--pink);
+}
+
+::placeholder {
+    color: var(--purple);
+    font-weight: 600;
+}
+
+footer {
+    background: var(--gradient);
+    height: 7.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+}
+
+header picture img {
+    animation: popOut 2s ease-in;
+}
+
+header > div {
+    animation: popOutLeft 2s;
+}
+
+header a > img {
+    animation: pop 0.8s infinite;
+}
+
+@keyframes pop {
+    50% {
+        transform: translateY(-10%);
+    }
+}
+
+@keyframes popOut {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+@keyframes popOutLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@media (min-width: 992px) {
+    header {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 3fr 1fr;
+        grid-template-areas:
+            'txt img'
+            'btn img';
+        align-items: center;
+        justify-items: start;
+    }
+
+    header picture {
+        align-self: start;
+        justify-self: end;
+        grid-area: img;
+    }
+    header > div {
+        grid-area: txt;
+    }
+
+    header a {
+        grid-area: btn;
+        align-self: end;
+        margin: 0;
+    }
+
+    .cards {
+        padding-inline: 2.5%;
+        flex-direction: row;
+        justify-content: center;
+
+        align-items: stretch;
+        gap: clamp(1.6rem, -7.1788rem + 8.8496vw, 5.6rem);
+    }
+}
+
+@media (min-width: 1200px) {
+    .contact {
+        background: url('./assets/stars.png') no-repeat right;
+        background-size: contain;
+    }
+
+    .contact form,
+    .contact h2 {
+        margin-inline: 0;
+    }
+}
