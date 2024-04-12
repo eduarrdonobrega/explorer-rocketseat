@@ -4,14 +4,19 @@ Neste stage aprendi a construir formulários com vários tipos de inpu
 
 # Projetos que Desenvolvi:
 
--   Macbook Card &nbsp; | [🧬 Code](https://github.com/eduarrdonobrega/explorer-rocketseat/tree/main/stage-03/macbook-card) | | [👾 Deploy](https://eduarrdonobrega.github.io/explorer-rocketseat/stage-03/macbook-card/) |
--   Space Cream &nbsp;&nbsp; &nbsp; | [🧬 Code](https://github.com/eduarrdonobrega/explorer-rocketseat/tree/main/stage-03/space-cream) | | [👾 Deploy](https://eduarrdonobrega.github.io/explorer-rocketseat/stage-03/space-cream/) |
--   Responsivo &nbsp; &nbsp; &nbsp; &nbsp; | [🧬 Code](https://github.com/eduarrdonobrega/explorer-rocketseat/tree/main/stage-03/responsivo) | | [👾 Deploy](https://eduarrdonobrega.github.io/explorer-rocketseat/stage-03/responsivo/) |
+-   Cat Blog &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | [🧬 Code](https://github.com/eduarrdonobrega/explorer-rocketseat/tree/main/stage-03/cat-blog/) | | [👾 Deploy](https://eduarrdonobrega.github.io/explorer-rocketseat/stage-03/cat-blog/) |
+-   Cheesecake &nbsp; &nbsp; &nbsp; | [🧬 Code](https://github.com/eduarrdonobrega/explorer-rocketseat/tree/main/stage-03/cheesecake/) | | [👾 Deploy](https://eduarrdonobrega.github.io/explorer-rocketseat/stage-03/cheesecake/) |
+-   Sem Limites &nbsp; &nbsp; &nbsp; | [🧬 Code](https://github.com/eduarrdonobrega/explorer-rocketseat/tree/main/stage-03/explore-sem-limites/) | | [👾 Deploy](https://eduarrdonobrega.github.io/explorer-rocketseat/stage-03/explore-sem-limites/) |
+-   Galaxies &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | [🧬 Code](https://github.com/eduarrdonobrega/explorer-rocketseat/tree/main/stage-03/galaxies/) | | [👾 Deploy](https://eduarrdonobrega.github.io/explorer-rocketseat/stage-03/galaxies/) |
+-   Macbook Card &nbsp;&nbsp; | [🧬 Code](https://github.com/eduarrdonobrega/explorer-rocketseat/tree/main/stage-03/macbook-card/) | | [👾 Deploy](https://eduarrdonobrega.github.io/explorer-rocketseat/stage-03/macbook-card/) |
+-   Photo blog &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; | [🧬 Code](https://github.com/eduarrdonobrega/explorer-rocketseat/tree/main/stage-03/photo-blog/) | | [👾 Deploy](https://eduarrdonobrega.github.io/explorer-rocketseat/stage-03/photo-blog/) |
+-   Responsivo &nbsp; &nbsp; &nbsp; &nbsp; | [🧬 Code](https://github.com/eduarrdonobrega/explorer-rocketseat/tree/main/stage-03/responsivo/) | | [👾 Deploy](https://eduarrdonobrega.github.io/explorer-rocketseat/stage-03/responsivo/) |
+-   Space Cream &nbsp;&nbsp; &nbsp; | [🧬 Code](https://github.com/eduarrdonobrega/explorer-rocketseat/tree/main/stage-03/space-cream/) | | [👾 Deploy](https://eduarrdonobrega.github.io/explorer-rocketseat/stage-03/space-cream/) |
 
 -   Formulários
     -   Evento &nbsp;&nbsp; &nbsp; &nbsp; | [🧬 Code](https://github.com/eduarrdonobrega/explorer-rocketseat/tree/main/stage-03/form-evento) | | [👾 Deploy](https://eduarrdonobrega.github.io/explorer-rocketseat/stage-03/form-evento/) |
     -   Mentoria &nbsp; &nbsp; | [🧬 Code](https://github.com/eduarrdonobrega/explorer-rocketseat/tree/main/stage-03/form-mentoria) | | [👾 Deploy](https://eduarrdonobrega.github.io/explorer-rocketseat/stage-03/form-mentoria/) |
-    -   Avaliação &nbsp; &nbsp; | [🧬 Code](https://github.com/eduarrdonobrega/explorer-rocketseat/tree/main/stage-03/form-avaliacao) | | [👾 Deploy](https://eduarrdonobrega.github.io/explorer-rocketseat/stage-03/form-avaliacao/) |
+    -   Avaliação &nbsp;&nbsp; | [🧬 Code](https://github.com/eduarrdonobrega/explorer-rocketseat/tree/main/stage-03/form-avaliacao) | | [👾 Deploy](https://eduarrdonobrega.github.io/explorer-rocketseat/stage-03/form-avaliacao/) |
 
 # Aprendi a:
 
