@@ -1,0 +1,196 @@
+:root {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: inherit;
+}
+
+img,
+picture,
+svg,
+video {
+    display: block;
+    max-width: 100%;
+}
+
+body,
+input,
+button,
+textarea {
+    font: 400 1.6rem Roboto, sans-serif;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    background-color: #040924;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.warning {
+    background-color: #f03e3e;
+
+    padding: 0.8rem;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    transform: translateY(-100%);
+}
+
+.warning p {
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+}
+
+main,
+.modal-card {
+    padding-block: 4.8rem 6.4rem;
+    padding-inline: clamp(4rem, -3.1111rem + 22.2222vw, 6.4rem);
+}
+
+main {
+    background-color: #fff;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+
+    width: min(95%, 428px);
+    border-radius: 6px;
+    margin-top: -2rem;
+}
+
+h1,
+h2 {
+    color: #0c3440;
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+
+h1 {
+    margin-bottom: 3.2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: #00453a;
+    font-size: 1.4rem;
+    margin-bottom: 0.8rem;
+}
+
+input {
+    color: #212529;
+    background-color: #dce2e9;
+
+    padding: 1.6rem;
+    border-radius: 0.4rem;
+    border: 1px solid #4950574d;
+}
+
+input:focus {
+    outline: none;
+    border-color: #02799d;
+}
+
+input:invalid:not(:placeholder-shown) {
+    border-color: #ff0000;
+}
+
+input:first-of-type {
+    margin-bottom: 1.6rem;
+}
+
+::placeholder {
+    color: #49505780;
+}
+
+button {
+    cursor: pointer;
+    transition: filter 200ms;
+}
+
+main button {
+    color: #fff;
+    background-color: #02799d;
+    font-weight: 700;
+
+    margin-top: 3.2rem;
+    padding: 1.6rem;
+    border-radius: 4px;
+    border: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+}
+
+button:hover {
+    filter: brightness(1.1);
+}
+
+.modal-wrapper {
+    background-color: #00000070;
+    padding: 0 2rem;
+
+    display: none;
+
+    position: absolute;
+    inset: 0;
+}
+
+.modal-card {
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+    border-radius: 0.6rem;
+    position: relative;
+}
+
+.modal-card button {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 1.6rem;
+    right: 1.6rem;
+}
+
+.modal-card button:hover svg path {
+    fill: #02799d;
+}
+
+.open {
+    display: grid;
+    place-items: center;
+
+}
+
+.popOut {
+    animation: popOut 1.5s ease forwards;
+}
+
+@keyframes popOut {
+    0% {
+        transform: translateY(-100%);
+    }
+    20% {
+        transform: translateY(0);
+    }
+    80% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
+}

@@ -12,10 +12,10 @@ const projects = [
     //     name: 'FocusTimer',
     //     path: 'stage-05/focus-timer'
     // },
-    // {
-    //     name: 'IMC',
-    //     path: 'stage-05/imc'
-    // },
+    {
+        name: 'IMC',
+        path: 'stage-05/imc'
+    },
     {
         name: 'Biscoito da sorte',
         path: 'stage-05/biscoito-da-sorte'
