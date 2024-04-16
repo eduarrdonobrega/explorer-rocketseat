@@ -1,0 +1,144 @@
+:root {
+    font-size: 62.5%;
+
+    --hue: 194;
+    --bg-color: hsl(var(--hue), 5%, 7%);
+    --text-color: hsl(var(--hue), 40%, 98%);
+    --primary-color: hsl(var(--hue), 100%, 63%);
+    --controls-bg-color: hsl(var(--hue), 0%, 14%);
+    --button-secondary: hsl(var(--hue), 40%, 98%);
+}
+
+html.light {
+    --bg-color: hsl(var(--hue), 40%, 98%);
+    --text-color: hsl(var(--hue), 5%, 7%);
+}
+
+html.light .ph-sun,
+html:not(.light) .ph-moon {
+    display: none;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+    appearance: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: inherit;
+}
+
+img,
+picture,
+svg,
+video {
+    display: block;
+    max-width: 100%;
+}
+
+body,
+input,
+button,
+textarea {
+    color: var(--text-color);
+    font: 400 1.6rem Roboto, sans-serif;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    background-color: var(--bg-color);
+
+    min-height: 100vh;
+
+    display: grid;
+    place-items: center;
+    transition: background-color 0.5s ease-out;
+}
+
+main {
+    margin-top: -20rem;
+    padding: 0 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer span {
+    font-size: 9.6rem;
+    font-weight: 700;
+
+    transition: color 0.5s ease-out;
+}
+
+#controls {
+    background: var(--controls-bg-color);
+
+    padding: 2.2rem 4rem;
+    border-radius: 999.9rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
+}
+
+button {
+    color: var(--primary-color);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.secondary-color {
+    color: var(--button-secondary);
+}
+
+.ph {
+    font-size: 6.4rem;
+}
+
+.ph-bold {
+    font-size: 3.2rem;
+}
+
+#toggle-mode {
+    position: absolute;
+    top: 3.2rem;
+    right: 3.2rem;
+    line-height: 0;
+    color: var(--text-color);
+}
+
+.hidden {
+    display: none;
+}
+
+.running .ph-play-circle,
+.running .ph-timer,
+.music-on .ph-speaker-none,
+html:not(.running) .ph-pause-circle,
+html:not(.running) .ph-stop-circle,
+html:not(.music-on) .ph-speaker-high {
+    display: none;
+}

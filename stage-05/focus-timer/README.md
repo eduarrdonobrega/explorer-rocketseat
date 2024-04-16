@@ -1,10 +1,15 @@
 # FocusTimer
 
-Cronometro com html css e js, seu código é separado por módulos e tem o padrão de projeto (design pattern) factory
+"Focus Timer" é um projeto de timer que utiliza ES6 modules, estados, variáveis, callback functions e um modo escuro / claro.
+
+<div align="center">
 
 ## Preview
+<a href="https://eduarrdonobrega.github.io/explorer-rocketseat/stage-05/focus-timer/" target="_blank">
+  <img src="https://github.com/eduarrdonobrega/explorer-rocketseat/assets/87456011/416d75d7-8bfa-484b-9748-e7534c45ad07" alt="Focus Timer">
+</a>
 
-![Animação](https://user-images.githubusercontent.com/87456011/190475771-99210bdd-91e0-4b4c-9b30-430796ba99ec.gif)
+</div>
 
 <div align="center">
 
