@@ -4,88 +4,88 @@ const branch = 'tree/main'
 const projectsDiv = document.querySelector('.projects')
 
 const projects = [
-    // {
-    //     name: 'FocusTimer 2.0',
-    //     path: 'stage-05/focus-timer-2.0'
-    // },
-    // {
-    //     name: 'FocusTimer',
-    //     path: 'stage-05/focus-timer'
-    // },
+    {
+        name: 'FocusTimer 2.0',
+        path: 'stage-05/focus-timer-2.0',
+    },
+    {
+        name: 'FocusTimer',
+        path: 'stage-05/focus-timer',
+    },
     {
         name: 'IMC',
-        path: 'stage-05/imc'
+        path: 'stage-05/imc',
     },
     {
         name: 'Biscoito da sorte',
-        path: 'stage-05/biscoito-da-sorte'
+        path: 'stage-05/biscoito-da-sorte',
     },
     {
         name: 'Jogo da Adivinhação',
-        path: 'stage-05/jogo-da-adivinhacao'
+        path: 'stage-05/jogo-da-adivinhacao',
     },
 
     {
         name: 'Explore sem Limites',
-        path: 'stage-03/explore-sem-limites'
+        path: 'stage-03/explore-sem-limites',
     },
     {
         name: 'Cat Blog',
-        path: 'stage-03/cat-blog'
+        path: 'stage-03/cat-blog',
     },
     {
         name: 'Galeria de Fotos',
-        path: 'stage-03/photo-blog'
+        path: 'stage-03/photo-blog',
     },
 
     {
         name: 'Galaxies',
-        path: 'stage-03/galaxies'
+        path: 'stage-03/galaxies',
     },
     {
         name: 'Cheesecake',
-        path: 'stage-03/cheesecake'
+        path: 'stage-03/cheesecake',
     },
     {
         name: 'Responsivo',
-        path: 'stage-03/responsivo'
+        path: 'stage-03/responsivo',
     },
     {
         name: 'Space Cream',
-        path: 'stage-03/space-cream'
+        path: 'stage-03/space-cream',
     },
     {
         name: 'Macbook Card',
-        path: 'stage-03/macbook-card'
+        path: 'stage-03/macbook-card',
     },
     {
         name: 'Formulário Avaliação',
-        path: 'stage-03/form-avaliacao'
+        path: 'stage-03/form-avaliacao',
     },
     {
         name: 'Formulário Mentoria',
-        path: 'stage-03/form-mentoria'
+        path: 'stage-03/form-mentoria',
     },
     {
         name: 'Formulário Evento',
-        path: 'stage-03/form-evento'
+        path: 'stage-03/form-evento',
     },
     {
         name: 'Rocket.sect',
-        path: 'stage-02/rocket-sect'
+        path: 'stage-02/rocket-sect',
     },
     {
         name: 'Treine.me',
-        path: 'stage-02/treine-me'
+        path: 'stage-02/treine-me',
     },
     {
         name: 'Flutar',
-        path: 'stage-02/recriando-layout'
+        path: 'stage-02/recriando-layout',
     },
     {
         name: 'Arquitetura',
-        path: 'stage-02/projeto-01'
-    }
+        path: 'stage-02/projeto-01',
+    },
 ]
 projects.forEach((project, index) => {
     const div = document.createElement('div')
