@@ -1,0 +1,178 @@
+:root {
+    font-size: 62.5%;
+
+    --text-color: #323238;
+    --bg-color: #fff;
+    --card-bg-color: #e1e1e6;
+
+    --primary-color: #02799d;
+    --secondary-color: #fff;
+
+    /* --primary-color: ;
+  
+    --card-color-hover: #0A3442;
+    
+    --contrast-darkMode: #fff; */
+
+    --body-color: #fff;
+    --card-color: #e1e1e6;
+    --card-color-hover: #02799d;
+}
+
+html.dark {
+    --text-color: #fff;
+
+    --card-bg-color: #29292e;
+    --primary-color: #0a3442;
+    --bg-color: #121214;
+}
+
+html.dark .ph-sun,
+html:not(.dark) .ph-moon {
+    display: none;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+    appearance: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: inherit;
+}
+
+img,
+picture,
+svg,
+video {
+    display: block;
+    max-width: 100%;
+}
+
+body,
+input,
+button,
+textarea {
+    color: var(--text-color);
+    font: 400 1.6rem Roboto, sans-serif;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    transition: color, background-color 0.4s ease-in-out;
+}
+
+body {
+    background-color: var(--bg-color);
+    min-height: 100vh;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+button:disabled {
+    opacity: 0.2;
+    cursor: not-allowed;
+}
+
+main {
+    min-height: 100vh;
+    width: min(90%, 821px);
+    margin: -10rem auto 0;
+
+    display: grid;
+    place-content: center;
+}
+
+#countdown {
+    margin-bottom: 6rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#timer {
+    font-size: clamp(9rem, 7.8rem + 3.75vw, 12.6rem);
+    font-weight: 500;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: clamp(2.2rem, 1.6rem + 1.875vw, 4rem);
+}
+
+#controls button {
+    font-size: clamp(4rem, 3.7333rem + 0.8333vw, 4.8rem);
+    line-height: 0;
+    background-color: transparent;
+}
+
+#sounds {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100% 100%;
+    gap: clamp(1.6rem, 1.0667rem + 1.6667vw, 3.2rem);
+}
+
+#sounds button {
+    font-size: clamp(3.6rem, 2.9333rem + 2.0833vw, 5.6rem);
+
+    border-radius: 2.4rem;
+    background-color: var(--card-bg-color);
+    transition: background-color 0.4s ease-out;
+}
+
+#sounds button.playing {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+#toggle-theme {
+    font-size: 3.2rem;
+    background-color: transparent;
+
+    position: absolute;
+    top: 3.2rem;
+    right: 3.2rem;
+    line-height: 0;
+    color: var(--text-color);
+}
+
+.running .ph-play-circle,
+html:not(.running) .ph-pause-circle {
+    display: none;
+}
+
+@media (min-width: 992px) {
+    main {
+        margin: -5rem auto 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #sounds {
+        grid-template-columns: repeat(2, 13.8rem);
+        grid-template-rows: repeat(2, 15.2rem);
+    }
+}
