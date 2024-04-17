@@ -1,0 +1,14 @@
+{
+    "name": "spa-universe",
+    "version": "1.0.0",
+    "description": "Uma Single-Page Application (SPA) é um tipo de aplicação web que se carrega uma única vez e, em seguida, permite navegar entre as diferentes seções da aplicação sem recarregar a página. Isso é conseguido através do uso de JavaScript e outras tecnologias da web, que permitem que a aplicação seja dinâmica e altamente interativa.",
+    "main": "index.js",
+    "scripts": {
+        "dev": "lite-server"
+    },
+    "author": "Eduardo Nóbrega",
+    "license": "MIT",
+    "devDependencies": {
+        "lite-server": "^2.6.1"
+    }
+}
