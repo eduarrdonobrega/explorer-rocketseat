@@ -7,6 +7,7 @@ const projects = [
     {
         name: 'SPA Universe',
         path: 'stage-06/spa-universe',
+        url: 'https://spa-universe-eight.vercel.app/',
     },
     {
         name: 'FocusTimer 2.0',
@@ -102,7 +103,7 @@ projects.forEach((project, index) => {
     const projectUrlGithub = document.createElement('a')
 
     const githubUrl = `https://github.com/${username}/${repoName}/${branch}/${project.path}`
-    const url = `https://${username}.github.io/${repoName}/${project.path}/`
+    const url = project.url ?? `https://${username}.github.io/${repoName}/${project.path}/`
 
     projectImg.setAttribute('src', `./assets/${project.path.slice(9)}.jpg`)
     projectName.innerText = project.name
