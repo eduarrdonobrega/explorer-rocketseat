@@ -5,6 +5,10 @@ const projectsDiv = document.querySelector('.projects')
 
 const projects = [
     {
+        name: 'SPA Universe',
+        path: 'stage-06/spa-universe',
+    },
+    {
         name: 'FocusTimer 2.0',
         path: 'stage-05/focus-timer-2.0',
     },
