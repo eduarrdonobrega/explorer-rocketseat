@@ -5,6 +5,10 @@ const projectsDiv = document.querySelector('.projects')
 
 const projects = [
     {
+        name: 'GitFav',
+        path: 'stage-06/git-fav',
+    },
+    {
         name: 'SPA Universe',
         path: 'stage-06/spa-universe',
         url: 'https://spa-universe-eight.vercel.app/',
@@ -103,7 +107,9 @@ projects.forEach((project, index) => {
     const projectUrlGithub = document.createElement('a')
 
     const githubUrl = `https://github.com/${username}/${repoName}/${branch}/${project.path}`
-    const url = project.url ?? `https://${username}.github.io/${repoName}/${project.path}/`
+    const url =
+        project.url ??
+        `https://${username}.github.io/${repoName}/${project.path}/`
 
     projectImg.setAttribute('src', `./assets/${project.path.slice(9)}.jpg`)
     projectName.innerText = project.name
